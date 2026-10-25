@@ -1,9 +1,19 @@
 {
   "latest": {
-    "code": 72,
-    "version": "0.1.72"
+    "code": 74,
+    "version": "0.1.74"
   },
   "notes": [
+    {
+      "code": 74,
+      "version": "0.1.74",
+      "date": "Oct 25, 2026",
+      "changes": [
+        "FRAME now makes your car spin faster in the air, so more flips fit into one jump. Flips still pay +2 s (front) and +3 s (backflip)",
+        "A car on its roof is put back on its wheels after 1.5 s, the same for every car, even while it still slides a little",
+        "This box: what changed in each update, and an UPDATE button when a newer version is out. Tap the version number at the bottom to open it again"
+      ]
+    },
     {
       "code": 72,
       "version": "0.1.72",
