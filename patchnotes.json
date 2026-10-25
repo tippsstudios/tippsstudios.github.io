@@ -1,0 +1,23 @@
+{
+  "latest": {
+    "code": 72,
+    "version": "0.1.72"
+  },
+  "notes": [
+    {
+      "code": 72,
+      "version": "0.1.72",
+      "date": "Oct 24, 2026",
+      "changes": [
+        "Coin rewards lowered in every world: upgrades now take more racing",
+        "Air vents lift the car every time, even when you roll onto them slowly or in reverse",
+        "Backflips now give +3 s, front flips +2 s",
+        "New progress bar under the timer: start, checkpoints, finish and where you are",
+        "Tap any part (or its yellow ?) to see what it does",
+        "TUNE has two pages: LOOK (paint, engine sound) and DRIVE (ride height, gearing, grip)",
+        "Pick an engine sound for each car in TUNE, LOOK",
+        "\"No ad right now\" text fits inside its button"
+      ]
+    }
+  ]
+}
