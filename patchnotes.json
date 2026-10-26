@@ -1,9 +1,20 @@
 {
   "latest": {
-    "code": 84,
-    "version": "0.1.84"
+    "code": 88,
+    "version": "0.1.88"
   },
   "notes": [
+    {
+      "code": 88,
+      "version": "0.1.88",
+      "date": "Oct 26, 2026",
+      "changes": [
+        "STAGES: tap the stage name (or the world name) in the garage to see every world and its stages at once, each on its own sky, with your stars, the Power it needs, your place on its leaderboard and your best time. Tap a stage to pick it",
+        "Worlds 6 to 10 are on their way: you can see them in STAGES as COMING SOON",
+        "The game is lighter on your phone: its pictures take far less memory and a smaller download, with the same look",
+        "Credits: the music is the Racing Music Pack by Fan Zoo"
+      ]
+    },
     {
       "code": 84,
       "version": "0.1.84",
