@@ -1,9 +1,30 @@
 {
   "latest": {
-    "code": 74,
-    "version": "0.1.74"
+    "code": 84,
+    "version": "0.1.84"
   },
   "notes": [
+    {
+      "code": 84,
+      "version": "0.1.84",
+      "date": "Oct 25, 2026",
+      "changes": [
+        "New engine sounds: every car has its own recorded engine. The revs rise smoothly, hold steady at top speed, fall when you let go, and the engine goes quiet in the air",
+        "TUNE, LOOK: pick Car's own, Rotary, Inline six or Retro for each car. The Rotary no longer keeps revving at top speed",
+        "New stunt: WHEELIE! Ride on your rear wheels (or your front wheels) for 1.5 s for +2 s",
+        "Pedal lights: the brake glows red, and the gas charges up from green to yellow while you hold it",
+        "Leaderboards: finishes after a CONTINUE now count too, and times that never reached the leaderboard (no internet) are sent again",
+        "New music: a new garage theme and a new race track",
+        "New coin sound and a finish-line fanfare",
+        "Potholes look like real holes: the road edge dips into them",
+        "Obstacles are easier to see: a dark outline and a shadow on the road, and sand, puddles, oil, mud, ice and lava-glass get a bright edge",
+        "Wider part cards with bigger UPGRADE buttons: tapping near one upgrades instead of opening the part's info",
+        "This box is now big and easy to read",
+        "Checkpoints are calmer: a small green glow instead of a big flash",
+        "The update button in this box is always here: it shows UPDATE when a new version is out, or says you have the latest one",
+        "The race help (?) keeps the ?, pause and RESET buttons on screen with a ? on each, from the very first race, and now explains the progress bar too"
+      ]
+    },
     {
       "code": 74,
       "version": "0.1.74",
