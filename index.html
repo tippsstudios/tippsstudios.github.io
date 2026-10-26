@@ -3,38 +3,215 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tipps Studios</title>
-<meta name="description" content="Tipps Studios makes Garage Rush, a cartoon stunt racing game for Android.">
-<link rel="icon" href="icon.png">
+<title>Garage Rush · Tipps Studios</title>
+<meta name="description" content="Garage Rush by Tipps Studios: a cartoon stunt racer for Android. Jump, flip and race 50 stages in five worlds before the clock runs out. Current version and what's new in every update.">
+<link rel="icon" href="img/icon_192.png">
 <style>
-  :root { --bg: #17191f; --panel: #22252d; --text: #f2f0ea; --muted: #b9b4a8; --accent: #f29a2e; }
+  :root {
+    --bg: #17191f; --panel: #22252d; --panel2: #2b2f39; --line: #363a45;
+    --text: #f2f0ea; --muted: #b9b4a8; --accent: #f29a2e; --gold: #ffcf3f; --green: #7fd36b;
+  }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; line-height: 1.5; }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
-  .game { display: flex; gap: 24px; align-items: center; background: var(--panel); border-radius: 16px; padding: 24px; }
-  .game img { width: 112px; height: 112px; border-radius: 24px; flex: none; }
-  h1 { margin: 0 0 32px; font-size: 28px; letter-spacing: 0.5px; }
-  h2 { margin: 0 0 8px; font-size: 24px; color: var(--accent); }
-  p { margin: 0 0 8px; color: var(--muted); }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; line-height: 1.55; }
   a { color: var(--accent); }
-  footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
-  @media (max-width: 520px) { .game { flex-direction: column; text-align: center; } }
+  img { max-width: 100%; display: block; }
+
+  nav { position: sticky; top: 0; z-index: 5; background: rgba(23, 25, 31, 0.94); border-bottom: 1px solid var(--line); }
+  nav .in { max-width: 1040px; margin: 0 auto; padding: 10px 16px; display: flex; gap: 18px; align-items: center; overflow-x: auto; white-space: nowrap; }
+  nav .brand { font-weight: bold; color: var(--text); text-decoration: none; margin-right: auto; display: flex; gap: 8px; align-items: center; }
+  nav .brand img { width: 28px; height: 28px; border-radius: 7px; }
+  nav a { text-decoration: none; font-size: 15px; flex: none; }
+
+  main { max-width: 1040px; margin: 0 auto; padding: 24px 16px 48px; }
+  section { margin-top: 48px; scroll-margin-top: 64px; }
+  h1 { margin: 0; font-size: 34px; letter-spacing: 0.5px; }
+  h2 { margin: 0 0 16px; font-size: 26px; color: var(--accent); }
+  h3 { margin: 0 0 6px; font-size: 18px; }
+  p { margin: 0 0 10px; color: var(--muted); }
+
+  .banner { border-radius: 16px; overflow: hidden; border: 1px solid var(--line); }
+  .banner img { width: 100%; height: auto; }
+  .hero { display: flex; gap: 22px; align-items: center; margin-top: 20px; }
+  .hero > img { width: 104px; height: 104px; border-radius: 22px; flex: none; }
+  .hero .lede { font-size: 18px; color: var(--text); margin: 6px 0 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .pill { display: inline-block; background: var(--panel2); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; font-size: 15px; color: var(--text); }
+  .pill b { color: var(--gold); }
+  .button { display: inline-block; background: var(--accent); color: #1b1408; font-weight: bold; text-decoration: none; border-radius: 10px; padding: 10px 18px; }
+  .note { font-size: 14px; }
+
+  .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px; min-width: 0; }
+  .card p { margin: 0; }
+  .card h3 { color: var(--gold); }
+
+  .shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  figure { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  figure img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  figcaption { padding: 8px 12px; font-size: 14px; color: var(--muted); }
+
+  .worlds { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+  .world { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px; min-width: 0; }
+  .world .n { font-size: 13px; color: var(--muted); }
+  .world .name { font-weight: bold; margin: 2px 0; }
+  .world .stages { font-size: 13px; color: var(--green); }
+  .world.soon { opacity: 0.6; border-style: dashed; }
+  .world.soon .stages { color: var(--muted); }
+
+  .latest { background: var(--panel); border: 1px solid var(--accent); border-radius: 14px; padding: 18px 20px; }
+  .latest .head, details summary { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline; }
+  .version { font-size: 20px; font-weight: bold; color: var(--gold); }
+  .date { color: var(--muted); font-size: 15px; }
+  .tag { font-size: 12px; font-weight: bold; color: #1b1408; background: var(--green); border-radius: 6px; padding: 2px 8px; }
+  ul.changes { margin: 10px 0 0; padding-left: 22px; }
+  ul.changes li { margin: 6px 0; color: var(--text); }
+  details { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 18px; margin-top: 10px; }
+  details summary { cursor: pointer; list-style: none; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "Show changes"; margin-left: auto; color: var(--accent); font-size: 14px; }
+  details[open] summary::after { content: "Hide"; }
+  details .version { font-size: 17px; }
+
+  footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+
+  @media (max-width: 760px) {
+    .worlds { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .hero { flex-direction: column; align-items: flex-start; }
+    .cards, .shots { grid-template-columns: 1fr; }
+    h1 { font-size: 28px; }
+    nav a:not(.brand) { font-size: 14px; }
+    nav .in { gap: 14px; }
+    nav .brand span { display: none; }  /* just the icon on a phone, so the four links fit */
+  }
 </style>
 </head>
 <body>
-<main>
-  <h1>Tipps Studios</h1>
-  <section class="game">
-    <img src="icon.png" alt="Garage Rush icon">
+<nav>
+  <div class="in">
+    <a class="brand" href="#top"><img src="img/icon_192.png" alt="Garage Rush"><span>Garage Rush</span></a>
+    <a href="#game">The game</a>
+    <a href="#pictures">Pictures</a>
+    <a href="#worlds">Worlds</a>
+    <a href="#news">What's new</a>
+  </div>
+</nav>
+
+<main id="top">
+  <div class="banner"><img src="img/banner.jpg" width="1024" height="500" alt="Garage Rush: a cartoon buggy racing through a scrapyard world"></div>
+
+  <div class="hero">
+    <img src="img/icon_192.png" width="104" height="104" alt="Garage Rush icon">
     <div>
-      <h2>Garage Rush</h2>
-      <p>A cartoon stunt racer: jump, flip and race 50 stages in five worlds before the clock runs out. Upgrade your car, unlock new ones and beat the leaderboards.</p>
-      <p>Coming soon to <a href="https://play.google.com/store/apps/details?id=com.paulbica.garagerush">Google Play</a>.</p>
+      <h1>Garage Rush</h1>
+      <p class="lede">Upgrade your car, then jump, flip and race 50 wild stages before time runs out!</p>
+      <div class="row">
+        <span class="pill" id="current">Version <b>0.1.88</b> · Oct 26, 2026</span>
+        <a class="button" href="https://play.google.com/store/apps/details?id=com.paulbica.garagerush">Google Play</a>
+      </div>
+      <p class="note" style="margin-top: 10px;">In testing on Google Play now, for Android. Launching for everyone soon.</p>
+    </div>
+  </div>
+
+  <section id="game">
+    <h2>The game</h2>
+    <p>Garage Rush is a side-scrolling stunt racer where the clock is always ticking.</p>
+    <p>Jump, flip and race across 50 hand-built stages in five worlds: dusty farm tracks, desert canyons, frozen peaks, a ruined city and an erupting volcano. Every stage mixes little hops, tall launch ramps and giant mega jumps with pits, ledges, ice, oil, ash, low bridges and smash barriers, plus slamming crushers, swinging wrecking balls and air vents that throw you skyward. Reach each checkpoint for more time, and land flips and wheelies for bonus seconds.</p>
+    <div class="cards" style="margin-top: 16px;">
+      <div class="card">
+        <h3>Build your car</h3>
+        <p>Spend your coins in the garage on the engine, gearbox, suspension, tires, frame and brakes, 15 levels each. A stronger engine flies higher and reaches the coins hidden up in the air.</p>
+      </div>
+      <div class="card">
+        <h3>Five cars</h3>
+        <p>The scrappy starter, the quick Sprinter, the heavy Hauler, the fast Interceptor and the grippy Ice Runner. Each one drives differently, and you can paint and tune it.</p>
+      </div>
+      <div class="card">
+        <h3>Think fast</h3>
+        <p>Brake for the low bridge, then floor it for the gap. Watch the warning lights and slip under the crusher before it slams. Time your run past the wrecking ball. Every stage has its own big moment.</p>
+      </div>
+      <div class="card">
+        <h3>Collect stars</h3>
+        <p>Grab coins for up to three stars per stage, unlock new worlds, and race for the fastest times on each stage's leaderboard.</p>
+      </div>
+    </div>
+    <p style="margin-top: 14px;">Two pedals: easy to learn, hard to master.</p>
+  </section>
+
+  <section id="pictures">
+    <h2>Pictures</h2>
+    <div class="shots">
+      <figure><img src="img/garage.jpg" width="1280" height="720" loading="lazy" alt="The garage: upgrade parts, pick a car and a stage"><figcaption>The garage: upgrade six parts, pick your car and your stage</figcaption></figure>
+      <figure><img src="img/crushers.jpg" width="1280" height="720" loading="lazy" alt="Crushers in front of an erupting volcano"><figcaption>Volcano: slip under the crushers before they slam</figcaption></figure>
+      <figure><img src="img/jump.jpg" width="1280" height="720" loading="lazy" alt="A big jump over a row of old buses in a ruined city"><figcaption>Ruined City: fly over the bus yard</figcaption></figure>
+      <figure><img src="img/ski_jump.jpg" width="1280" height="720" loading="lazy" alt="A buggy in the air off a ski jump under an aurora"><figcaption>Snow Peaks: big air under the aurora</figcaption></figure>
+      <figure><img src="img/wrecking_ball.jpg" width="1280" height="720" loading="lazy" alt="Swinging wrecking balls in a desert canyon at sunset"><figcaption>Desert Canyon: time your run past the wrecking balls</figcaption></figure>
+      <figure><img src="img/snow.jpg" width="1280" height="720" loading="lazy" alt="A wrecking ball on a snowy mountain road"><figcaption>Snow Peaks: the Summit Gauntlet</figcaption></figure>
     </div>
   </section>
+
+  <section id="worlds">
+    <h2>Worlds</h2>
+    <p>Ten stages in each world, harder as you go. Five more worlds are on their way.</p>
+    <div class="worlds" style="margin-top: 14px;">
+      <div class="world"><div class="n">World 1</div><div class="name">Countryside</div><div class="stages">Stages 1-10</div></div>
+      <div class="world"><div class="n">World 2</div><div class="name">Desert Canyon</div><div class="stages">Stages 11-20</div></div>
+      <div class="world"><div class="n">World 3</div><div class="name">Snow Peaks</div><div class="stages">Stages 21-30</div></div>
+      <div class="world"><div class="n">World 4</div><div class="name">Ruined City</div><div class="stages">Stages 31-40</div></div>
+      <div class="world"><div class="n">World 5</div><div class="name">Volcano</div><div class="stages">Stages 41-50</div></div>
+      <div class="world soon"><div class="n">World 6</div><div class="name">Coming soon</div><div class="stages">Stages 51-60</div></div>
+      <div class="world soon"><div class="n">World 7</div><div class="name">Coming soon</div><div class="stages">Stages 61-70</div></div>
+      <div class="world soon"><div class="n">World 8</div><div class="name">Coming soon</div><div class="stages">Stages 71-80</div></div>
+      <div class="world soon"><div class="n">World 9</div><div class="name">Coming soon</div><div class="stages">Stages 81-90</div></div>
+      <div class="world soon"><div class="n">World 10</div><div class="name">Coming soon</div><div class="stages">Stages 91-100</div></div>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2>What's new</h2>
+    <div id="notes">
+      <p>The notes for every version are in the game: open the garage and tap "What's new" at the bottom of the screen.</p>
+    </div>
+  </section>
+
   <footer>
+    <p>Garage Rush is made by Tipps Studios.</p>
     <p><a href="https://sites.google.com/view/garagerush-privacy">Privacy policy</a> · Contact: <a href="mailto:tippsstudios@gmail.com">tippsstudios@gmail.com</a></p>
+    <p>© 2026 Tipps Studios</p>
   </footer>
 </main>
+
+<script>
+  // The version and the change lists come from patchnotes.json, the same file the game reads for its UPDATE button,
+  // so this page shows each new version as soon as it is published (Tools/publish_notes.py)
+  function esc(text) {
+    return String(text).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+  function changes(list) {
+    return '<ul class="changes">' + list.map(c => "<li>" + esc(c) + "</li>").join("") + "</ul>";
+  }
+  fetch("patchnotes.json", { cache: "no-store" })
+    .then(r => r.json())
+    .then(data => {
+      const notes = data.notes || [];
+      const latest = notes.find(n => n.code === data.latest.code) || notes[0];
+      if (!latest) return;
+      document.getElementById("current").innerHTML = "Version <b>" + esc(latest.version) + "</b> · " + esc(latest.date);
+      let html = '<div class="latest"><div class="head"><span class="version">Version ' + esc(latest.version) + '</span>'
+        + '<span class="date">' + esc(latest.date) + '</span><span class="tag">LATEST</span></div>' + changes(latest.changes) + "</div>";
+      const earlier = notes.filter(n => n !== latest);
+      if (earlier.length) {
+        html += '<h3 style="margin: 26px 0 0;">Earlier versions</h3>';
+        for (const n of earlier)
+          html += '<details><summary><span class="version">Version ' + esc(n.version) + '</span><span class="date">'
+            + esc(n.date) + " · " + n.changes.length + (n.changes.length === 1 ? " change" : " changes") + "</span></summary>"
+            + changes(n.changes) + "</details>";
+      }
+      document.getElementById("notes").innerHTML = html;
+    })
+    .catch(() => {});
+</script>
 </body>
 </html>
