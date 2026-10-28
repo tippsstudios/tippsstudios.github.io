@@ -1,9 +1,18 @@
 {
   "latest": {
-    "code": 101,
-    "version": "0.1.101"
+    "code": 104,
+    "version": "0.1.104"
   },
   "notes": [
+    {
+      "code": 104,
+      "version": "0.1.104",
+      "date": "Oct 28, 2026",
+      "changes": [
+        "From World 3, flips and wheelies add 1 s each (Worlds 1-2 keep +2 s, +3 s for a backflip): on the later stages a better car matters more than stunts",
+        "Worlds 4 and 5: a stage starts only when your car has at least 85% of the Power it is made for (Stage 50 needs Power 77). START RACE shows how much you need: upgrade to race"
+      ]
+    },
     {
       "code": 101,
       "version": "0.1.101",
