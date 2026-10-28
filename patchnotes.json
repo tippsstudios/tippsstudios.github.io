@@ -1,9 +1,17 @@
 {
   "latest": {
-    "code": 104,
-    "version": "0.1.104"
+    "code": 106,
+    "version": "0.1.106"
   },
   "notes": [
+    {
+      "code": 106,
+      "version": "0.1.106",
+      "date": "Oct 28, 2026",
+      "changes": [
+        "From World 2 every stage needs a little Power to start: 70% of what it is made for in World 2, 80% in World 3 and 85% in Worlds 4 and 5. START RACE and STAGES show how much you need, so you are never stuck at a jump your car can't make"
+      ]
+    },
     {
       "code": 104,
       "version": "0.1.104",
