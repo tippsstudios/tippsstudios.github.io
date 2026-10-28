@@ -1,9 +1,27 @@
 {
   "latest": {
-    "code": 106,
-    "version": "0.1.106"
+    "code": 114,
+    "version": "0.1.114"
   },
   "notes": [
+    {
+      "code": 114,
+      "version": "0.1.114",
+      "date": "Oct 28, 2026",
+      "changes": [
+        "Pick your driver: eight racers, four boys and four girls, all free. Choose in TUNE, LOOK (new racers pick when they choose their name). Your driver drives every car",
+        "Holding the gas over a small ramp no longer throws the car on its nose: for a moment in the air the gas tips it only gently. Let go and press again to flip",
+        "A light tap of the nose or the back is no longer a crash: only a real hit (or landing on the roof) costs health",
+        "BIG AIR! only for real jumps: long and high, not a low glide down a slope",
+        "Ads in Europe now follow Google's consent rules. Change your answer anytime in Settings, PERSONALISED ADS",
+        "Daily Delivery: a free crate of coins waits in the garage once a day (above the Discord button). Watch an ad to get 3 times as much",
+        "WORLD CLEARED! Your first finish of a world's last stage pays a big bonus",
+        "Worlds 2 to 5 pay fewer coins per race, so the stages last longer and every upgrade counts. Your coins and parts stay",
+        "The Power a stage needs never jumps by more than 2 from one stage to the next (Stage 31 needs 45, Stage 40 59, Stage 50 76)",
+        "REPAIR now fixes your wrecked car to 75% (was 50%)",
+        "Fuel: a new star no longer takes away the extra cans you got from an ad"
+      ]
+    },
     {
       "code": 106,
       "version": "0.1.106",
