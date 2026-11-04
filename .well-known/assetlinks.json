@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.paulbica.garagerush",
+      "sha256_cert_fingerprints": [
+        "8C:E5:82:E5:49:1F:70:42:8F:66:AB:27:D2:3C:14:F3:38:5F:88:81:56:91:1F:13:82:22:D5:C3:58:4E:E8:FD",
+        "C7:E2:3E:2E:27:C1:9A:FA:B0:8F:89:99:0F:D9:60:5E:BF:10:ED:72:6D:D4:08:A5:47:49:B0:EC:E4:5C:5E:1C"
+      ]
+    }
+  }
+]

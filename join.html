@@ -39,16 +39,19 @@
 
 <script>
   // The game's join link (VersusWindow's SHARE): garagerush://join?code=ABC123 opens Garage Rush on Android and
-  // joins that lobby; without the game, Android falls back to the Play Store page
+  // joins that lobby (the game also opens this page's link itself, an App Link: .well-known/assetlinks.json); a browser
+  // that can't open it comes back here with &stay=1, and the page shows the steps and the Play Store link
   var code = (new URLSearchParams(location.search).get('code') || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8);
   var store = 'https://play.google.com/store/apps/details?id=com.paulbica.garagerush';
   var link = /android/i.test(navigator.userAgent)
-    ? 'intent://join?code=' + code + '#Intent;scheme=garagerush;package=com.paulbica.garagerush;S.browser_fallback_url=' + encodeURIComponent(store) + ';end'
+    ? 'intent://join?code=' + code + '#Intent;scheme=garagerush;package=com.paulbica.garagerush;S.browser_fallback_url=' + encodeURIComponent(location.origin + location.pathname + '?code=' + code + '&stay=1') + ';end'
     : 'garagerush://join?code=' + code;
+  var stay = new URLSearchParams(location.search).has('stay');  // the browser couldn't open the game: show the steps
   if (code) {
     document.getElementById('code').textContent = code;
     document.getElementById('open').href = link;
-    location.href = link;  // straight into the game; the button is there if the browser waits for a tap
+    if (!stay)
+      location.href = link;  // straight into the game; the button is there if the browser waits for a tap
   } else {
     document.getElementById('open').href = store;
   }
