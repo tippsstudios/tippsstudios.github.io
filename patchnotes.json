@@ -1,9 +1,22 @@
 {
   "latest": {
-    "code": 136,
-    "version": "0.1.136"
+    "code": 142,
+    "version": "0.1.142"
   },
   "notes": [
+    {
+      "code": 142,
+      "version": "0.1.142",
+      "date": "",
+      "changes": [
+        "Garage Rush speaks your language: English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어 and 繁體中文. Pick one in Settings, LANGUAGE (a new player starts in the phone's language)",
+        "VERSUS: SHARE now sends a link. Your friends tap it and join your lobby straight away",
+        "VERSUS fixes: leaving the game to send the code (WhatsApp) no longer breaks the lobby, the race connection opens fresh at every START, and a new host can start the race when the old one left",
+        "VERSUS: no more racing alone without knowing it. A phone that can't reach the others says so, and racers who never connected show NO CONNECTION instead of DNF",
+        "Settings is wider, in two columns",
+        "Fixes: a part's info no longer covers the windows above it, and long stage names fit the map's stage panel"
+      ]
+    },
     {
       "code": 136,
       "version": "0.1.136",
