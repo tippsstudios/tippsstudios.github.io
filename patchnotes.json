@@ -1,9 +1,24 @@
 {
   "latest": {
-    "code": 114,
-    "version": "0.1.114"
+    "code": 126,
+    "version": "0.1.126"
   },
   "notes": [
+    {
+      "code": 126,
+      "version": "0.1.126",
+      "date": "Oct 29, 2026",
+      "changes": [
+        "VERSUS: race up to two friends live! Tap RACE, then VERSUS. HOST picks a stage and shares a code, friends JOIN with it",
+        "In VERSUS everyone has the same Power: pick any of the five cars and spread the points over its parts in SETUP (presets SPEED, GRIP and AIR). Your setup stays secret",
+        "Friends race beside you as ghost cars with their names above them, a 3-2-1 starts everyone together, and the podium pays coins by place. Each race takes one fuel can",
+        "CAREER: every stage is now a pin on one big map through the worlds. Slide and pinch to move, tap a pin for your stars, the fastest racers and RACE",
+        "The garage has one big RACE button. Leaderboards live on the map's stage panels; change your racer name in Settings",
+        "Crash fix: driving fast over rocks and bumps no longer counts as a crash, only a hit that really stops the car",
+        "The race's ? button moved left of the clock, so it isn't tapped by mistake; the progress bar is a plain black line",
+        "Fixes: the free RETRY only on stages you haven't finished, ads can't get stuck, a car repaired on a checkpoint still reaches it, no fake PERFECT LANDING after CONTINUE"
+      ]
+    },
     {
       "code": 114,
       "version": "0.1.114",
