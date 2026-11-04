@@ -1,9 +1,25 @@
 {
   "latest": {
-    "code": 126,
-    "version": "0.1.126"
+    "code": 136,
+    "version": "0.1.136"
   },
   "notes": [
+    {
+      "code": 136,
+      "version": "0.1.136",
+      "date": "Nov 1, 2026",
+      "changes": [
+        "PEDALS in Settings: move both pedals anywhere and resize them, for example both together for one hand. CAREER and VERSUS can each have their own layout",
+        "The race results have a new look, in the game's rusty frame",
+        "Underpowered for a stage? The map's stage panel warns you in red (RACE ANYWAY), and so does the race as it starts",
+        "VERSUS: the host picks the stage from a grid now. Tap the stage card, choose a world, tap a stage",
+        "The phone's Back button works: it pauses a race, asks before you leave a VERSUS race, and closes windows in the garage",
+        "Settings has a PRIVACY button with our privacy policy",
+        "Credits: a special thanks to our closed testing racers",
+        "The screen can turn off again while you're in the garage, saving battery",
+        "Fixes: an expired online sign-in reconnects, and a car wrecked just as the time ran out no longer races on after a CONTINUE"
+      ]
+    },
     {
       "code": 126,
       "version": "0.1.126",
