@@ -1,9 +1,22 @@
 {
   "latest": {
-    "code": 142,
-    "version": "0.1.142"
+    "code": 150,
+    "version": "0.1.150"
   },
   "notes": [
+    {
+      "code": 150,
+      "version": "0.1.150",
+      "date": "Nov 5, 2026",
+      "changes": [
+        "VERSUS: QUICK RACE! Race up to 2 other players right away, on a random stage from the worlds you've all reached. Set up your car before you search: car and setup stay locked for the match",
+        "VERSUS ranks: win podium points (3 for a win, 1 for second) and climb from Bronze to Silver, Gold, Champion and Legend. Your badge shows next to your name in the lobby, in the race and on the podium, and a flame after 3 wins in a row",
+        "Show off your rank: a checkered flag on your car from Gold, exhaust flames from Champion and a crown for your driver at Legend. New paints in TUNE: Champion Gold, Chrome and Carbon",
+        "VERSUS ghost cars move smoothly now, and you can see them inside tunnels",
+        "SETUP has no presets any more: every point is yours to place",
+        "Fixes: racers' name tags no longer overlap at the start"
+      ]
+    },
     {
       "code": 142,
       "version": "0.1.142",
