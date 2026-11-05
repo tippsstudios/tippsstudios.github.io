@@ -1,9 +1,93 @@
 {
   "latest": {
-    "code": 152,
-    "version": "0.1.152"
+    "code": 154,
+    "version": "0.1.154"
   },
   "notes": [
+    {
+      "code": 154,
+      "version": "0.1.154",
+      "date": "Nov 5, 2026",
+      "changes": [
+        "QUICK RACE: a big countdown shows when the race starts, ticking in the last 5 seconds",
+        "QUICK RACE: NEW MATCH hides while the start counts down, so nobody leaves by mistake",
+        "CAREER: a MAP button on the race results takes you straight back to the map"
+      ],
+      "tr": [
+        {
+          "lang": "ro",
+          "changes": [
+            "CURSĂ RAPIDĂ: o numărătoare mare arată când începe cursa, cu tic-tac în ultimele 5 secunde",
+            "CURSĂ RAPIDĂ: MECI NOU dispare cât timp merge numărătoarea, ca nimeni să nu plece din greșeală",
+            "CARIERĂ: butonul HARTĂ din rezultatele cursei te duce direct înapoi pe hartă"
+          ]
+        },
+        {
+          "lang": "es",
+          "changes": [
+            "CARRERA RÁPIDA: una gran cuenta atrás muestra cuándo empieza la carrera, con tic-tac en los últimos 5 segundos",
+            "CARRERA RÁPIDA: NUEVA PARTIDA se oculta durante la cuenta atrás, para que nadie se vaya por error",
+            "CAMPAÑA: un botón MAPA en los resultados te lleva directo de vuelta al mapa"
+          ]
+        },
+        {
+          "lang": "pt",
+          "changes": [
+            "CORRIDA RÁPIDA: uma grande contagem regressiva mostra quando a corrida começa, com tique-taque nos últimos 5 segundos",
+            "CORRIDA RÁPIDA: NOVA PARTIDA some durante a contagem, para ninguém sair sem querer",
+            "CARREIRA: um botão MAPA nos resultados leva você direto de volta ao mapa"
+          ]
+        },
+        {
+          "lang": "de",
+          "changes": [
+            "SCHNELLRENNEN: ein großer Countdown zeigt, wann das Rennen startet, mit Ticken in den letzten 5 Sekunden",
+            "SCHNELLRENNEN: NEUES MATCH verschwindet während des Countdowns, damit niemand aus Versehen geht",
+            "KARRIERE: ein KARTE-Knopf in den Rennergebnissen bringt dich direkt zurück zur Karte"
+          ]
+        },
+        {
+          "lang": "fr",
+          "changes": [
+            "COURSE RAPIDE : un grand compte à rebours montre quand la course démarre, avec un tic-tac les 5 dernières secondes",
+            "COURSE RAPIDE : NOUVEAU MATCH disparaît pendant le compte à rebours, pour que personne ne parte par erreur",
+            "CARRIÈRE : un bouton CARTE dans les résultats te ramène directement à la carte"
+          ]
+        },
+        {
+          "lang": "it",
+          "changes": [
+            "GARA RAPIDA: un grande conto alla rovescia mostra quando parte la gara, con un tic negli ultimi 5 secondi",
+            "GARA RAPIDA: NUOVA PARTITA sparisce durante il conto alla rovescia, così nessuno esce per sbaglio",
+            "CARRIERA: un pulsante MAPPA nei risultati ti riporta subito alla mappa"
+          ]
+        },
+        {
+          "lang": "ja",
+          "changes": [
+            "クイックレース：スタートまでの大きなカウントダウンを表示。残り5秒でカチカチ鳴ります",
+            "クイックレース：カウントダウン中は「新しいマッチ」が隠れ、うっかり抜けることがなくなりました",
+            "キャリア：レース結果の「マップ」ボタンでマップにすぐ戻れます"
+          ]
+        },
+        {
+          "lang": "ko",
+          "changes": [
+            "빠른 레이스: 출발까지 큰 카운트다운이 보이고, 마지막 5초에는 똑딱 소리가 나요",
+            "빠른 레이스: 카운트다운 중에는 새 매치 버튼이 숨겨져 실수로 나가지 않아요",
+            "커리어: 레이스 결과의 지도 버튼으로 바로 지도로 돌아가요"
+          ]
+        },
+        {
+          "lang": "zh",
+          "changes": [
+            "快速賽：大大的倒數顯示比賽何時開始，最後 5 秒會滴答作響",
+            "快速賽：倒數時新對局按鈕會隱藏，不會再不小心離開",
+            "生涯：比賽結果中的地圖按鈕可直接回到地圖"
+          ]
+        }
+      ]
+    },
     {
       "code": 152,
       "version": "0.1.152",
