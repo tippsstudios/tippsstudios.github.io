@@ -1,9 +1,113 @@
 {
   "latest": {
-    "code": 150,
-    "version": "0.1.150"
+    "code": 152,
+    "version": "0.1.152"
   },
   "notes": [
+    {
+      "code": 152,
+      "version": "0.1.152",
+      "date": "Nov 5, 2026",
+      "changes": [
+        "VERSUS: ghost cars now show where the other racers really are, so every phone sees the same race. Before, they trailed half a second behind",
+        "VERSUS SETUP: raise parts up to 3 levels above the stage's standard, to Level 18, even on the hardest stages",
+        "What's new now speaks your language too",
+        "Big coin totals fit the top bar: 548.6K, 1.25M",
+        "Fixes: QUICK RACE messages no longer hide behind the BACK, LEAVE and NEW MATCH buttons"
+      ],
+      "tr": [
+        {
+          "lang": "ro",
+          "changes": [
+            "VERSUS: mașinile-fantomă apar acum exact unde sunt ceilalți piloți, deci fiecare telefon vede aceeași cursă. Înainte rămâneau cu o jumătate de secundă în urmă",
+            "VERSUS SETUP: urcă piesele cu până la 3 niveluri peste standardul etapei, până la Nivelul 18, chiar și pe cele mai grele etape",
+            "Noutățile apar acum și în limba ta",
+            "Sumele mari de monede încap în bara de sus: 548.6K, 1.25M",
+            "Remedieri: mesajele din CURSĂ RAPIDĂ nu mai stau sub butoanele ÎNAPOI, IEȘI și MECI NOU"
+          ]
+        },
+        {
+          "lang": "es",
+          "changes": [
+            "VERSUS: los coches fantasma ahora aparecen donde están de verdad los demás pilotos, así todos los móviles ven la misma carrera. Antes iban medio segundo por detrás",
+            "AJUSTES de VERSUS: sube las piezas hasta 3 niveles por encima del estándar de la etapa, hasta el Nivel 18, incluso en las etapas más difíciles",
+            "Las novedades ahora también están en tu idioma",
+            "Las cantidades grandes de monedas caben en la barra superior: 548.6K, 1.25M",
+            "Correcciones: los mensajes de CARRERA RÁPIDA ya no quedan detrás de los botones ATRÁS, SALIR y NUEVA PARTIDA"
+          ]
+        },
+        {
+          "lang": "pt",
+          "changes": [
+            "VERSUS: os carros fantasma agora aparecem onde os outros pilotos realmente estão, então todos os celulares veem a mesma corrida. Antes ficavam meio segundo atrás",
+            "ACERTO do VERSUS: suba as peças até 3 níveis acima do padrão da fase, até o Nível 18, mesmo nas fases mais difíceis",
+            "As novidades agora também aparecem no seu idioma",
+            "Grandes quantias de moedas cabem na barra de cima: 548.6K, 1.25M",
+            "Correções: as mensagens da CORRIDA RÁPIDA não ficam mais atrás dos botões VOLTAR, SAIR e NOVA PARTIDA"
+          ]
+        },
+        {
+          "lang": "de",
+          "changes": [
+            "VERSUS: Geisterautos zeigen jetzt, wo die anderen Fahrer wirklich sind, so sieht jedes Handy dasselbe Rennen. Vorher hingen sie eine halbe Sekunde hinterher",
+            "VERSUS-SETUP: Teile bis zu 3 Stufen über den Standard der Etappe steigern, bis Stufe 18, auch auf den schwersten Etappen",
+            "Die Neuigkeiten gibt es jetzt auch in deiner Sprache",
+            "Große Münzbeträge passen in die obere Leiste: 548.6K, 1.25M",
+            "Fehlerbehebungen: Meldungen im SCHNELLRENNEN verstecken sich nicht mehr hinter ZURÜCK, GEHEN und NEUES MATCH"
+          ]
+        },
+        {
+          "lang": "fr",
+          "changes": [
+            "VERSUS : les voitures fantômes s'affichent maintenant là où sont vraiment les autres pilotes, chaque téléphone voit donc la même course. Avant, elles avaient une demi-seconde de retard",
+            "CONFIG VERSUS : monte les pièces jusqu'à 3 niveaux au-dessus du standard de l'étape, jusqu'au niveau 18, même sur les étapes les plus dures",
+            "Les nouveautés s'affichent aussi dans ta langue",
+            "Les grosses sommes de pièces tiennent dans la barre du haut : 548.6K, 1.25M",
+            "Corrections : les messages de COURSE RAPIDE ne passent plus sous les boutons RETOUR, QUITTER et NOUVEAU MATCH"
+          ]
+        },
+        {
+          "lang": "it",
+          "changes": [
+            "VERSUS: le auto fantasma ora appaiono dove sono davvero gli altri piloti, così ogni telefono vede la stessa gara. Prima restavano indietro di mezzo secondo",
+            "SETUP VERSUS: alza i pezzi fino a 3 livelli sopra lo standard della tappa, fino al Livello 18, anche nelle tappe più dure",
+            "Le novità ora parlano anche la tua lingua",
+            "I grandi totali di monete stanno nella barra in alto: 548.6K, 1.25M",
+            "Correzioni: i messaggi di GARA RAPIDA non finiscono più sotto i pulsanti INDIETRO, ABBANDONA e NUOVA PARTITA"
+          ]
+        },
+        {
+          "lang": "ja",
+          "changes": [
+            "VERSUS：ゴーストカーが他のプレイヤーの本当の位置に表示されるようになり、どのスマホでも同じレースが見えます。以前は0.5秒ほど遅れていました",
+            "VERSUSのセッティング：パーツをステージの標準より最大3レベル上、レベル18まで上げられます。最難関のステージでも",
+            "最新情報もあなたの言語で表示されるようになりました",
+            "大きなコイン数も上のバーに収まります：548.6K、1.25M",
+            "修正：クイックレースのメッセージが「戻る」「退出」「新しいマッチ」ボタンに隠れなくなりました"
+          ]
+        },
+        {
+          "lang": "ko",
+          "changes": [
+            "VERSUS: 고스트 카가 이제 다른 레이서의 실제 위치에 표시되어 모든 폰에서 같은 레이스가 보여요. 전에는 0.5초쯤 뒤처져 있었어요",
+            "VERSUS 세팅: 부품을 스테이지 기준보다 최대 3레벨 위, 레벨 18까지 올릴 수 있어요. 가장 어려운 스테이지에서도요",
+            "새 소식도 이제 당신의 언어로 보여요",
+            "큰 코인 수도 위쪽 바에 들어가요: 548.6K, 1.25M",
+            "수정: 빠른 레이스 메시지가 더 이상 뒤로, 나가기, 새 매치 버튼에 가려지지 않아요"
+          ]
+        },
+        {
+          "lang": "zh",
+          "changes": [
+            "VERSUS：幽靈車現在顯示在其他車手的真實位置，每支手機看到的都是同一場比賽。以前會落後半秒",
+            "VERSUS 配置：零件最多可以比關卡標準高 3 級，最高到 18 級，最難的關卡也一樣",
+            "更新內容現在也會用你的語言顯示",
+            "大量金幣也放得進上方欄：548.6K、1.25M",
+            "修正：快速賽的訊息不再被返回、離開和新對局按鈕擋住"
+          ]
+        }
+      ]
+    },
     {
       "code": 150,
       "version": "0.1.150",
@@ -15,6 +119,107 @@
         "VERSUS ghost cars move smoothly now, and you can see them inside tunnels",
         "SETUP has no presets any more: every point is yours to place",
         "Fixes: racers' name tags no longer overlap at the start"
+      ],
+      "tr": [
+        {
+          "lang": "ro",
+          "changes": [
+            "VERSUS: CURSĂ RAPIDĂ! Întrece-te pe loc cu până la 2 alți jucători, pe o etapă la întâmplare din lumile la care ați ajuns toți. Pregătește mașina înainte să cauți: mașina și setup-ul rămân blocate tot meciul",
+            "Ranguri VERSUS: câștigă puncte pe podium (3 pentru locul 1, 1 pentru locul 2) și urcă de la Bronz la Argint, Aur, Campion și Legendă. Insigna ta apare lângă nume în lobby, în cursă și pe podium, plus o flacără după 3 victorii la rând",
+            "Arată-ți rangul: un steag în carouri pe mașină de la Aur, flăcări la eșapament de la Campion și o coroană pentru pilot la Legendă. Vopsele noi în REGLAJ: Aur de Campion, Crom și Carbon",
+            "Mașinile-fantomă din VERSUS merg acum fluid și se văd și în tuneluri",
+            "SETUP nu mai are presetări: tu împarți fiecare punct",
+            "Remedieri: numele piloților nu se mai suprapun la start"
+          ]
+        },
+        {
+          "lang": "es",
+          "changes": [
+            "VERSUS: ¡CARRERA RÁPIDA! Compite al instante contra hasta 2 jugadores más, en una etapa al azar de los mundos que todos habéis alcanzado. Prepara el coche antes de buscar: coche y ajustes quedan fijos toda la partida",
+            "Rangos VERSUS: gana puntos de podio (3 por ganar, 1 por ser segundo) y sube de Bronce a Plata, Oro, Campeón y Leyenda. Tu insignia aparece junto a tu nombre en la sala, en la carrera y en el podio, y una llama tras 3 victorias seguidas",
+            "Presume tu rango: una bandera a cuadros en tu coche desde Oro, llamas en el escape desde Campeón y una corona para tu piloto en Leyenda. Pinturas nuevas en TUNING: Oro de Campeón, Cromo y Carbono",
+            "Los coches fantasma de VERSUS se mueven con fluidez y se ven dentro de los túneles",
+            "AJUSTES ya no tiene preajustes: cada punto lo repartes tú",
+            "Correcciones: los nombres de los pilotos ya no se solapan en la salida"
+          ]
+        },
+        {
+          "lang": "pt",
+          "changes": [
+            "VERSUS: CORRIDA RÁPIDA! Corra na hora contra até 2 outros jogadores, numa fase sorteada dos mundos que todos já alcançaram. Prepare o carro antes de buscar: carro e acerto ficam travados durante a partida",
+            "Rankings VERSUS: ganhe pontos no pódio (3 pela vitória, 1 pelo segundo lugar) e suba de Bronze para Prata, Ouro, Campeão e Lenda. Seu emblema aparece ao lado do seu nome na sala, na corrida e no pódio, e uma chama após 3 vitórias seguidas",
+            "Mostre seu ranking: uma bandeira quadriculada no carro a partir do Ouro, chamas no escapamento a partir do Campeão e uma coroa para o piloto na Lenda. Pinturas novas em AJUSTE: Ouro de Campeão, Cromo e Carbono",
+            "Os carros fantasma do VERSUS agora andam suaves e aparecem dentro dos túneis",
+            "O ACERTO não tem mais predefinições: cada ponto é você quem distribui",
+            "Correções: os nomes dos pilotos não se sobrepõem mais na largada"
+          ]
+        },
+        {
+          "lang": "de",
+          "changes": [
+            "VERSUS: SCHNELLRENNEN! Fahr sofort gegen bis zu 2 andere Spieler, auf einer zufälligen Etappe aus den Welten, die alle erreicht haben. Stell dein Auto vor der Suche ein: Auto und Setup bleiben das ganze Match gesperrt",
+            "VERSUS-Ränge: sammle Podiumspunkte (3 für den Sieg, 1 für Platz 2) und steig von Bronze zu Silber, Gold, Champion und Legende auf. Dein Abzeichen steht neben deinem Namen in der Lobby, im Rennen und auf dem Podium, nach 3 Siegen in Folge auch eine Flamme",
+            "Zeig deinen Rang: eine Zielflagge am Auto ab Gold, Auspuffflammen ab Champion und eine Krone für deinen Fahrer als Legende. Neue Lacke im TUNING: Champion-Gold, Chrom und Carbon",
+            "VERSUS-Geisterautos fahren jetzt flüssig und sind auch in Tunneln zu sehen",
+            "SETUP hat keine Vorlagen mehr: jeden Punkt verteilst du selbst",
+            "Fehlerbehebungen: die Namen der Fahrer überlappen sich am Start nicht mehr"
+          ]
+        },
+        {
+          "lang": "fr",
+          "changes": [
+            "VERSUS : COURSE RAPIDE ! Affronte tout de suite jusqu'à 2 autres joueurs, sur une étape au hasard des mondes que vous avez tous atteints. Prépare ta voiture avant de chercher : voiture et config restent bloquées pendant tout le match",
+            "Rangs VERSUS : gagne des points de podium (3 pour une victoire, 1 pour la 2e place) et monte de Bronze à Argent, Or, Champion et Légende. Ton badge s'affiche à côté de ton nom dans le salon, en course et sur le podium, et une flamme après 3 victoires d'affilée",
+            "Montre ton rang : un drapeau à damier sur ta voiture dès Or, des flammes à l'échappement dès Champion et une couronne pour ton pilote en Légende. Nouvelles peintures dans RÉGLAGES : Or de Champion, Chrome et Carbone",
+            "Les voitures fantômes du VERSUS roulent maintenant en douceur et restent visibles dans les tunnels",
+            "La CONFIG n'a plus de préréglages : chaque point, c'est toi qui le places",
+            "Corrections : les noms des pilotes ne se chevauchent plus au départ"
+          ]
+        },
+        {
+          "lang": "it",
+          "changes": [
+            "VERSUS: GARA RAPIDA! Sfida subito fino a 2 altri giocatori, su una tappa a caso dei mondi che avete raggiunto tutti. Prepara l'auto prima di cercare: auto e setup restano bloccati per tutta la partita",
+            "Gradi VERSUS: vinci punti podio (3 per la vittoria, 1 per il secondo posto) e sali da Bronzo ad Argento, Oro, Campione e Leggenda. Il tuo distintivo appare accanto al nome nella sala, in gara e sul podio, e una fiamma dopo 3 vittorie di fila",
+            "Mostra il tuo grado: una bandiera a scacchi sull'auto da Oro, fiamme dallo scarico da Campione e una corona per il pilota da Leggenda. Nuove vernici in ASSETTO: Oro del Campione, Cromo e Carbonio",
+            "Le auto fantasma del VERSUS ora si muovono fluide e si vedono anche nei tunnel",
+            "Il SETUP non ha più preimpostazioni: ogni punto lo distribuisci tu",
+            "Correzioni: i nomi dei piloti non si sovrappongono più alla partenza"
+          ]
+        },
+        {
+          "lang": "ja",
+          "changes": [
+            "VERSUS：クイックレース！みんなが到達したワールドからランダムに選ばれたステージで、最大2人の他プレイヤーとすぐに対戦。探す前に車をセッティングしよう：車とセッティングはマッチ中ロックされます",
+            "VERSUSランク：表彰台ポイント（優勝3、2位1）を集めて、ブロンズからシルバー、ゴールド、チャンピオン、レジェンドへ。ロビー、レース、表彰台で名前の横にバッジが表示され、3連勝で炎も付きます",
+            "ランクを見せつけよう：ゴールドから車にチェッカーフラッグ、チャンピオンから排気炎、レジェンドでドライバーに王冠。チューンに新しい塗装：チャンピオンゴールド、クローム、カーボン",
+            "VERSUSのゴーストカーがなめらかに動き、トンネルの中でも見えるようになりました",
+            "セッティングのプリセットはなくなりました：ポイントはすべて自分で配分",
+            "修正：スタート時にレーサーの名前が重ならなくなりました"
+          ]
+        },
+        {
+          "lang": "ko",
+          "changes": [
+            "VERSUS: 빠른 레이스! 모두가 도달한 월드 중 무작위 스테이지에서 최대 2명의 다른 플레이어와 바로 대결하세요. 찾기 전에 차를 세팅하세요: 매치 동안 차와 세팅이 잠겨요",
+            "VERSUS 랭크: 시상대 포인트(우승 3, 2위 1)를 모아 브론즈에서 실버, 골드, 챔피언, 레전드로 올라가세요. 로비, 레이스, 시상대에서 이름 옆에 배지가 보이고, 3연승하면 불꽃도 붙어요",
+            "랭크를 뽐내세요: 골드부터 차에 체커기, 챔피언부터 배기 불꽃, 레전드는 드라이버에게 왕관. 튜닝에 새 페인트: 챔피언 골드, 크롬, 카본",
+            "VERSUS 고스트 카가 이제 부드럽게 움직이고 터널 안에서도 보여요",
+            "세팅에 프리셋이 없어졌어요: 모든 포인트를 직접 배분하세요",
+            "수정: 출발할 때 레이서 이름이 더 이상 겹치지 않아요"
+          ]
+        },
+        {
+          "lang": "zh",
+          "changes": [
+            "VERSUS：快速賽！在大家都到過的世界中隨機選一個關卡，馬上和最多 2 名其他玩家比賽。搜尋前先調好車：整場對局中車和配置都會鎖定",
+            "VERSUS 段位：贏取頒獎台積分（冠軍 3 分、亞軍 1 分），從青銅升到白銀、黃金、冠軍和傳奇。你的徽章會顯示在大廳、比賽和頒獎台上的名字旁，連勝 3 場還有火焰",
+            "炫耀你的段位：黃金起車上有方格旗，冠軍起有排氣火焰，傳奇的車手戴上皇冠。調校中的新塗裝：冠軍金、鍍鉻和碳纖維",
+            "VERSUS 的幽靈車現在移動流暢，在隧道裡也看得到",
+            "配置不再有預設：每一點都由你自己分配",
+            "修正：起跑時車手名字不再重疊"
+          ]
+        }
       ]
     },
     {
@@ -28,6 +233,107 @@
         "VERSUS: no more racing alone without knowing it. A phone that can't reach the others says so, and racers who never connected show NO CONNECTION instead of DNF",
         "Settings is wider, in two columns",
         "Fixes: a part's info no longer covers the windows above it, and long stage names fit the map's stage panel"
+      ],
+      "tr": [
+        {
+          "lang": "ro",
+          "changes": [
+            "Garage Rush vorbește limba ta: English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어 și 繁體中文. Alege-o în SETĂRI, LIMBĂ (un jucător nou pornește în limba telefonului)",
+            "VERSUS: TRIMITE trimite acum un link. Prietenii îl apasă și intră direct în lobby-ul tău",
+            "Remedieri VERSUS: dacă ieși din joc ca să trimiți codul (WhatsApp), lobby-ul nu se mai strică, conexiunea cursei se deschide din nou la fiecare START, iar un nou gazdă poate porni cursa când cel vechi a plecat",
+            "VERSUS: nu mai concurezi singur fără să știi. Un telefon care nu-i poate ajunge pe ceilalți îți spune, iar piloții care nu s-au conectat apar cu FĂRĂ CONEXIUNE în loc de ABANDON",
+            "SETĂRI e mai lat, pe două coloane",
+            "Remedieri: informațiile unei piese nu mai acoperă ferestrele de deasupra, iar numele lungi de etape încap în panoul de pe hartă"
+          ]
+        },
+        {
+          "lang": "es",
+          "changes": [
+            "Garage Rush habla tu idioma: English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어 y 繁體中文. Elígelo en OPCIONES, IDIOMA (un jugador nuevo empieza en el idioma del móvil)",
+            "VERSUS: COMPARTIR ahora envía un enlace. Tus amigos lo tocan y entran directo en tu sala",
+            "Correcciones VERSUS: salir del juego para enviar el código (WhatsApp) ya no rompe la sala, la conexión de la carrera se abre de nuevo en cada EMPEZAR, y un nuevo anfitrión puede iniciar la carrera si el anterior se fue",
+            "VERSUS: se acabó correr solo sin saberlo. Un móvil que no llega a los demás te lo dice, y los pilotos que nunca se conectaron muestran SIN CONEXIÓN en vez de ABANDONO",
+            "OPCIONES es más ancho, en dos columnas",
+            "Correcciones: la información de una pieza ya no tapa las ventanas de arriba, y los nombres largos de etapa caben en el panel del mapa"
+          ]
+        },
+        {
+          "lang": "pt",
+          "changes": [
+            "Garage Rush fala o seu idioma: English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어 e 繁體中文. Escolha em OPÇÕES, IDIOMA (um jogador novo começa no idioma do celular)",
+            "VERSUS: ENVIAR agora manda um link. Seus amigos tocam nele e entram direto na sua sala",
+            "Correções VERSUS: sair do jogo para mandar o código (WhatsApp) não quebra mais a sala, a conexão da corrida abre de novo a cada INICIAR, e um novo anfitrião pode iniciar a corrida quando o antigo saiu",
+            "VERSUS: chega de correr sozinho sem saber. Um celular que não alcança os outros avisa, e pilotos que nunca conectaram aparecem como SEM CONEXÃO em vez de ABANDONO",
+            "OPÇÕES está mais largo, em duas colunas",
+            "Correções: as informações de uma peça não cobrem mais as janelas acima, e nomes longos de fase cabem no painel do mapa"
+          ]
+        },
+        {
+          "lang": "de",
+          "changes": [
+            "Garage Rush spricht deine Sprache: English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어 und 繁體中文. Wähle sie unter OPTIONEN, SPRACHE (neue Spieler starten in der Sprache des Handys)",
+            "VERSUS: TEILEN schickt jetzt einen Link. Deine Freunde tippen darauf und landen direkt in deiner Lobby",
+            "VERSUS-Fehlerbehebungen: das Spiel zu verlassen, um den Code zu schicken (WhatsApp), macht die Lobby nicht mehr kaputt, die Rennverbindung öffnet sich bei jedem START neu, und ein neuer Gastgeber kann das Rennen starten, wenn der alte gegangen ist",
+            "VERSUS: kein Rennen mehr allein, ohne es zu wissen. Ein Handy, das die anderen nicht erreicht, sagt es dir, und Fahrer ohne Verbindung zeigen KEINE VERBINDUNG statt DNF",
+            "OPTIONEN ist breiter, in zwei Spalten",
+            "Fehlerbehebungen: die Infos eines Teils verdecken die Fenster darüber nicht mehr, und lange Etappennamen passen ins Etappenfeld der Karte"
+          ]
+        },
+        {
+          "lang": "fr",
+          "changes": [
+            "Garage Rush parle ta langue : English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어 et 繁體中文. Choisis-la dans PARAMÈTRES, LANGUE (un nouveau joueur commence dans la langue du téléphone)",
+            "VERSUS : PARTAGER envoie maintenant un lien. Tes amis le touchent et rejoignent directement ton salon",
+            "Corrections VERSUS : quitter le jeu pour envoyer le code (WhatsApp) ne casse plus le salon, la connexion de la course s'ouvre à neuf à chaque LANCER, et un nouvel hôte peut lancer la course quand l'ancien est parti",
+            "VERSUS : fini de courir seul sans le savoir. Un téléphone qui n'atteint pas les autres te le dit, et les pilotes jamais connectés affichent PAS DE CONNEXION au lieu d'ABANDON",
+            "PARAMÈTRES est plus large, sur deux colonnes",
+            "Corrections : les infos d'une pièce ne cachent plus les fenêtres au-dessus, et les longs noms d'étape tiennent dans le panneau de la carte"
+          ]
+        },
+        {
+          "lang": "it",
+          "changes": [
+            "Garage Rush parla la tua lingua: English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어 e 繁體中文. Sceglila in IMPOSTAZIONI, LINGUA (un nuovo giocatore parte nella lingua del telefono)",
+            "VERSUS: CONDIVIDI ora manda un link. I tuoi amici lo toccano ed entrano subito nella tua sala",
+            "Correzioni VERSUS: uscire dal gioco per mandare il codice (WhatsApp) non rompe più la sala, la connessione della gara si riapre a ogni VIA, e un nuovo host può avviare la gara se il vecchio è uscito",
+            "VERSUS: niente più gare da solo senza saperlo. Un telefono che non raggiunge gli altri te lo dice, e i piloti mai collegati mostrano NESSUNA CONNESSIONE invece di RIT",
+            "IMPOSTAZIONI è più largo, su due colonne",
+            "Correzioni: le info di un pezzo non coprono più le finestre sopra, e i nomi lunghi delle tappe stanno nel pannello della mappa"
+          ]
+        },
+        {
+          "lang": "ja",
+          "changes": [
+            "Garage Rushがあなたの言語に対応：English、Română、Español、Português (BR)、Deutsch、Français、Italiano、日本語、한국어、繁體中文。設定の「言語」で選べます（新しいプレイヤーはスマホの言語で始まります）",
+            "VERSUS：「共有」でリンクを送れるようになりました。友だちがタップするとすぐにロビーに参加できます",
+            "VERSUSの修正：コードを送るためにゲームを離れても（WhatsApp）ロビーが壊れなくなり、スタートのたびにレース接続が新しく開き、ホストが抜けても新しいホストがレースを始められます",
+            "VERSUS：知らないうちに一人で走ることはもうありません。他の人につながらないスマホはそう表示し、接続しなかったレーサーはリタイアではなく「接続なし」と表示されます",
+            "設定画面が広くなり、2列になりました",
+            "修正：パーツの情報が上のウィンドウを隠さなくなり、長いステージ名もマップのパネルに収まります"
+          ]
+        },
+        {
+          "lang": "ko",
+          "changes": [
+            "Garage Rush가 당신의 언어로: English, Română, Español, Português (BR), Deutsch, Français, Italiano, 日本語, 한국어, 繁體中文. 설정의 언어에서 고르세요 (새 플레이어는 폰의 언어로 시작해요)",
+            "VERSUS: 공유가 이제 링크를 보내요. 친구가 탭하면 바로 로비에 들어와요",
+            "VERSUS 수정: 코드를 보내려고 게임을 나가도(WhatsApp) 로비가 깨지지 않고, 시작할 때마다 레이스 연결이 새로 열리며, 호스트가 나가면 새 호스트가 레이스를 시작할 수 있어요",
+            "VERSUS: 모르는 사이에 혼자 달리는 일은 이제 없어요. 다른 사람에게 연결되지 않는 폰은 알려주고, 연결되지 않은 레이서는 리타이어 대신 연결 없음으로 표시돼요",
+            "설정이 더 넓어지고 두 줄로 나뉘었어요",
+            "수정: 부품 정보가 위쪽 창을 가리지 않고, 긴 스테이지 이름도 지도 패널에 들어가요"
+          ]
+        },
+        {
+          "lang": "zh",
+          "changes": [
+            "Garage Rush 會說你的語言：English、Română、Español、Português (BR)、Deutsch、Français、Italiano、日本語、한국어和繁體中文。在設定的語言中選擇（新玩家會使用手機的語言）",
+            "VERSUS：分享現在會送出連結。朋友點一下就直接加入你的大廳",
+            "VERSUS 修正：離開遊戲去傳代碼（WhatsApp）不再弄壞大廳，每次開始都會重新建立比賽連線，原本的房主離開後，新房主也能開始比賽",
+            "VERSUS：不會再不知不覺一個人比賽。連不上其他人的手機會告訴你，從未連線的車手會顯示未連線而不是未完賽",
+            "設定變寬了，分成兩欄",
+            "修正：零件資訊不再擋住上方視窗，較長的關卡名稱也放得進地圖的關卡面板"
+          ]
+        }
       ]
     },
     {
@@ -44,6 +350,134 @@
         "Credits: a special thanks to our closed testing racers",
         "The screen can turn off again while you're in the garage, saving battery",
         "Fixes: an expired online sign-in reconnects, and a car wrecked just as the time ran out no longer races on after a CONTINUE"
+      ],
+      "tr": [
+        {
+          "lang": "ro",
+          "changes": [
+            "PEDALE în SETĂRI: mută ambele pedale oriunde și schimbă-le mărimea, de exemplu amândouă împreună pentru o singură mână. CARIERĂ și VERSUS pot avea fiecare aranjamentul lor",
+            "Rezultatele cursei au un aspect nou, în rama ruginită a jocului",
+            "Prea slab pentru o etapă? Panoul etapei de pe hartă te avertizează cu roșu (CURSĂ ORICUM), la fel și cursa când pornește",
+            "VERSUS: gazda alege acum etapa dintr-o grilă. Apasă cartonașul etapei, alege o lume, apasă o etapă",
+            "Butonul Înapoi al telefonului merge: pune cursa pe pauză, întreabă înainte să ieși dintr-o cursă VERSUS și închide ferestrele din garaj",
+            "SETĂRI are un buton CONFIDENȚIALITATE cu politica noastră de confidențialitate",
+            "Credite: mulțumiri speciale piloților din testarea închisă",
+            "Ecranul se poate stinge din nou cât ești în garaj, ca să economisești bateria",
+            "Remedieri: o autentificare online expirată se reconectează, iar o mașină distrusă exact când a expirat timpul nu mai merge mai departe după CONTINUĂ"
+          ]
+        },
+        {
+          "lang": "es",
+          "changes": [
+            "PEDALES en OPCIONES: mueve los dos pedales a cualquier sitio y cambia su tamaño, por ejemplo los dos juntos para una mano. CAMPAÑA y VERSUS pueden tener cada uno su propia disposición",
+            "Los resultados de la carrera tienen un aspecto nuevo, en el marco oxidado del juego",
+            "¿Te falta potencia para una etapa? El panel de la etapa en el mapa te avisa en rojo (CORRER IGUAL), y la carrera también al empezar",
+            "VERSUS: el anfitrión elige ahora la etapa en una cuadrícula. Toca la tarjeta de la etapa, elige un mundo y toca una etapa",
+            "El botón Atrás del móvil funciona: pausa la carrera, pregunta antes de salir de una carrera VERSUS y cierra ventanas en el garaje",
+            "OPCIONES tiene un botón PRIVACIDAD con nuestra política de privacidad",
+            "Créditos: un agradecimiento especial a los pilotos de la prueba cerrada",
+            "La pantalla puede apagarse otra vez mientras estás en el garaje, para ahorrar batería",
+            "Correcciones: un inicio de sesión online caducado se vuelve a conectar, y un coche destrozado justo al acabarse el tiempo ya no sigue corriendo tras CONTINUAR"
+          ]
+        },
+        {
+          "lang": "pt",
+          "changes": [
+            "PEDAIS em OPÇÕES: mova os dois pedais para qualquer lugar e mude o tamanho, por exemplo os dois juntos para uma mão. CARREIRA e VERSUS podem ter cada um seu próprio layout",
+            "Os resultados da corrida têm um visual novo, na moldura enferrujada do jogo",
+            "Falta potência para uma fase? O painel da fase no mapa avisa em vermelho (CORRER MESMO ASSIM), e a corrida também ao começar",
+            "VERSUS: o anfitrião agora escolhe a fase numa grade. Toque no cartão da fase, escolha um mundo e toque numa fase",
+            "O botão Voltar do celular funciona: pausa a corrida, pergunta antes de sair de uma corrida VERSUS e fecha janelas na garagem",
+            "OPÇÕES tem um botão PRIVACIDADE com a nossa política de privacidade",
+            "Créditos: um agradecimento especial aos pilotos do teste fechado",
+            "A tela pode apagar de novo enquanto você está na garagem, economizando bateria",
+            "Correções: um login online expirado se reconecta, e um carro destruído bem quando o tempo acabou não continua correndo depois de CONTINUAR"
+          ]
+        },
+        {
+          "lang": "de",
+          "changes": [
+            "PEDALE in den OPTIONEN: verschieb beide Pedale beliebig und ändere ihre Größe, zum Beispiel beide zusammen für eine Hand. KARRIERE und VERSUS können je ein eigenes Layout haben",
+            "Die Rennergebnisse haben einen neuen Look, im rostigen Rahmen des Spiels",
+            "Zu schwach für eine Etappe? Das Etappenfeld auf der Karte warnt dich in Rot (TROTZDEM LOS), und das Rennen beim Start auch",
+            "VERSUS: der Gastgeber wählt die Etappe jetzt aus einem Raster. Tipp auf die Etappenkarte, wähl eine Welt, tipp auf eine Etappe",
+            "Die Zurück-Taste des Handys funktioniert: sie pausiert ein Rennen, fragt, bevor du ein VERSUS-Rennen verlässt, und schließt Fenster in der Garage",
+            "Die OPTIONEN haben einen DATENSCHUTZ-Knopf mit unserer Datenschutzerklärung",
+            "Credits: ein besonderer Dank an unsere Fahrer aus dem geschlossenen Test",
+            "Der Bildschirm kann in der Garage wieder ausgehen und spart Akku",
+            "Fehlerbehebungen: eine abgelaufene Online-Anmeldung verbindet sich neu, und ein Auto, das genau bei Zeitablauf zerstört wurde, fährt nach WEITER nicht mehr weiter"
+          ]
+        },
+        {
+          "lang": "fr",
+          "changes": [
+            "PÉDALES dans PARAMÈTRES : place les deux pédales où tu veux et change leur taille, par exemple les deux ensemble pour une main. CARRIÈRE et VERSUS peuvent avoir chacun leur disposition",
+            "Les résultats de course ont un nouveau look, dans le cadre rouillé du jeu",
+            "Pas assez puissant pour une étape ? Le panneau de l'étape sur la carte te prévient en rouge (COURIR QUAND MÊME), et la course aussi au départ",
+            "VERSUS : l'hôte choisit maintenant l'étape dans une grille. Touche la carte de l'étape, choisis un monde, touche une étape",
+            "Le bouton Retour du téléphone marche : il met la course en pause, demande avant de quitter une course VERSUS et ferme les fenêtres du garage",
+            "PARAMÈTRES a un bouton VIE PRIVÉE avec notre politique de confidentialité",
+            "Crédits : un merci spécial aux pilotes de notre test fermé",
+            "L'écran peut de nouveau s'éteindre dans le garage, pour économiser la batterie",
+            "Corrections : une connexion en ligne expirée se reconnecte, et une voiture détruite pile à la fin du temps ne continue plus après CONTINUER"
+          ]
+        },
+        {
+          "lang": "it",
+          "changes": [
+            "PEDALI in IMPOSTAZIONI: sposta i due pedali dove vuoi e cambiane la misura, per esempio entrambi insieme per una mano. CARRIERA e VERSUS possono avere ognuno la propria disposizione",
+            "I risultati della gara hanno un nuovo look, nella cornice arrugginita del gioco",
+            "Troppo debole per una tappa? Il pannello della tappa sulla mappa ti avvisa in rosso (CORRI COMUNQUE), e anche la gara alla partenza",
+            "VERSUS: l'host ora sceglie la tappa da una griglia. Tocca la scheda della tappa, scegli un mondo, tocca una tappa",
+            "Il tasto Indietro del telefono funziona: mette in pausa la gara, chiede prima di lasciare una gara VERSUS e chiude le finestre nel garage",
+            "IMPOSTAZIONI ha un pulsante PRIVACY con la nostra informativa sulla privacy",
+            "Riconoscimenti: un grazie speciale ai piloti del nostro test chiuso",
+            "Lo schermo può di nuovo spegnersi mentre sei nel garage, risparmiando batteria",
+            "Correzioni: un accesso online scaduto si ricollega, e un'auto distrutta proprio allo scadere del tempo non corre più dopo CONTINUA"
+          ]
+        },
+        {
+          "lang": "ja",
+          "changes": [
+            "設定にペダル：両方のペダルを好きな場所に動かしてサイズも変えられます。たとえば片手用に2つを並べて。キャリアとVERSUSでそれぞれ別の配置にできます",
+            "レース結果が、ゲームのさびたフレームで新しいデザインに",
+            "ステージにパワー不足？マップのステージパネルが赤で警告し（それでもレース）、レース開始時にも知らせます",
+            "VERSUS：ホストはグリッドからステージを選ぶようになりました。ステージカードをタップし、ワールドを選び、ステージをタップ",
+            "スマホの戻るボタンが使えます：レースを一時停止し、VERSUSのレースを抜ける前に確認し、ガレージのウィンドウを閉じます",
+            "設定にプライバシーボタンを追加。プライバシーポリシーが見られます",
+            "クレジット：クローズドテストのレーサーたちに特別な感謝を",
+            "ガレージにいる間は画面が再び消えるようになり、バッテリーを節約します",
+            "修正：期限切れのオンラインサインインが再接続し、時間切れの瞬間に壊れた車がコンティニュー後に走り続けることはなくなりました"
+          ]
+        },
+        {
+          "lang": "ko",
+          "changes": [
+            "설정에 페달: 두 페달을 아무 데나 옮기고 크기를 바꿀 수 있어요. 예를 들어 한 손용으로 둘을 나란히. 커리어와 VERSUS가 각자 배치를 가질 수 있어요",
+            "레이스 결과가 게임의 녹슨 프레임으로 새로워졌어요",
+            "스테이지에 파워가 부족한가요? 지도의 스테이지 패널이 빨간색으로 경고하고(그래도 레이스), 레이스가 시작할 때도 알려줘요",
+            "VERSUS: 호스트가 이제 격자에서 스테이지를 골라요. 스테이지 카드를 탭하고, 월드를 고르고, 스테이지를 탭하세요",
+            "폰의 뒤로 버튼이 작동해요: 레이스를 일시정지하고, VERSUS 레이스를 나가기 전에 묻고, 차고의 창을 닫아요",
+            "설정에 개인정보 버튼이 생겨 개인정보 처리방침을 볼 수 있어요",
+            "크레딧: 비공개 테스트 레이서들에게 특별한 감사를",
+            "차고에 있는 동안 화면이 다시 꺼질 수 있어 배터리를 아껴요",
+            "수정: 만료된 온라인 로그인이 다시 연결되고, 시간이 끝나는 순간 부서진 차가 계속하기 후에 더 달리지 않아요"
+          ]
+        },
+        {
+          "lang": "zh",
+          "changes": [
+            "設定中的踏板：兩個踏板都能移到任何位置並調整大小，例如並排放好單手操作。生涯和 VERSUS 可以各有自己的配置",
+            "比賽結果換上新外觀，用的是遊戲的鏽蝕外框",
+            "某個關卡馬力不足？地圖上的關卡面板會用紅字提醒（照樣比賽），比賽開始時也會提醒",
+            "VERSUS：房主現在從格狀列表選關卡。點關卡卡片，選一個世界，再點一個關卡",
+            "手機的返回鍵能用了：可暫停比賽，離開 VERSUS 比賽前會先詢問，並能關閉車庫中的視窗",
+            "設定新增隱私按鈕，可查看我們的隱私權政策",
+            "製作名單：特別感謝封閉測試的車手們",
+            "待在車庫時螢幕又可以自動關閉，節省電量",
+            "修正：過期的線上登入會重新連線，剛好在時間結束時撞毀的車，按繼續後不會再繼續跑"
+          ]
+        }
       ]
     },
     {
