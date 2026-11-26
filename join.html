@@ -34,7 +34,7 @@
   <div class="code" id="code">------</div>
   <p><a class="button" id="open" href="#">Open Garage Rush</a></p>
   <p class="small">Nothing happened? Open Garage Rush, tap <b>RACE</b>, then <b>VERSUS</b>, then <b>JOIN</b>, and type the code.<br>
-    Don't have the game yet? <a href="https://play.google.com/store/apps/details?id=com.paulbica.garagerush">Get it on Google Play</a>.</p>
+    Don't have the game yet? Get it on <a href="https://play.google.com/store/apps/details?id=com.paulbica.garagerush">Google Play</a> or the <a href="https://apps.apple.com/app/id6831582047">App Store</a>.</p>
 </main>
 
 <script>
@@ -42,7 +42,7 @@
   // joins that lobby (the game also opens this page's link itself, an App Link: .well-known/assetlinks.json); a browser
   // that can't open it comes back here with &stay=1, and the page shows the steps and the Play Store link
   var code = (new URLSearchParams(location.search).get('code') || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8);
-  var store = 'https://play.google.com/store/apps/details?id=com.paulbica.garagerush';
+  var store = /iphone|ipad|ipod/i.test(navigator.userAgent) ? 'https://apps.apple.com/app/id6831582047' : 'https://play.google.com/store/apps/details?id=com.paulbica.garagerush';
   var link = /android/i.test(navigator.userAgent)
     ? 'intent://join?code=' + code + '#Intent;scheme=garagerush;package=com.paulbica.garagerush;S.browser_fallback_url=' + encodeURIComponent(location.origin + location.pathname + '?code=' + code + '&stay=1') + ';end'
     : 'garagerush://join?code=' + code;
