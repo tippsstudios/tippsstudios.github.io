@@ -4,6 +4,11 @@
     "version": "0.1.155"
   },
   "required": 155,
+  "latestIos": {
+    "code": 155,
+    "version": "0.1.155"
+  },
+  "requiredIos": 155,
   "notes": [
     {
       "code": 155,
