@@ -1,9 +1,114 @@
 {
   "latest": {
-    "code": 154,
-    "version": "0.1.154"
+    "code": 155,
+    "version": "0.1.155"
   },
+  "required": 155,
   "notes": [
+    {
+      "code": 155,
+      "version": "0.1.155",
+      "date": "Nov 7, 2026",
+      "changes": [
+        "FRESH START: the closed test is over, thank you! Everyone starts again from Stage 1, on new empty leaderboards. Your racer name stays",
+        "Garage Rush is coming to iPhone: iPhone and Android players race together in VERSUS",
+        "Buttons and texts stay clear of the phone's camera and the screen's rounded edges",
+        "CREDITS: thanks to every racer of the closed test",
+        "Fix: the fuel window no longer says OUT OF FUEL when the tank is full"
+      ],
+      "tr": [
+        {
+          "lang": "ro",
+          "changes": [
+            "START NOU: testul închis s-a terminat, mulțumim! Toată lumea o ia de la capăt de la Etapa 1, pe clasamente noi și goale. Numele tău de pilot rămâne",
+            "Garage Rush vine pe iPhone: jucătorii de iPhone și Android concurează împreună în VERSUS",
+            "Butoanele și textele nu mai ajung sub camera telefonului sau la marginile rotunjite ale ecranului",
+            "CREDITE: mulțumim fiecărui pilot din testul închis",
+            "Remediere: fereastra de benzină nu mai scrie FĂRĂ BENZINĂ când rezervorul e plin"
+          ]
+        },
+        {
+          "lang": "es",
+          "changes": [
+            "NUEVO COMIENZO: la prueba cerrada ha terminado, ¡gracias! Todos empiezan de nuevo desde la Etapa 1, en clasificaciones nuevas y vacías. Tu nombre de piloto se queda",
+            "Garage Rush llega a iPhone: los jugadores de iPhone y Android corren juntos en VERSUS",
+            "Los botones y textos ya no quedan bajo la cámara del móvil ni en los bordes redondeados de la pantalla",
+            "CRÉDITOS: gracias a cada piloto de la prueba cerrada",
+            "Corrección: la ventana de gasolina ya no dice SIN GASOLINA con el depósito lleno"
+          ]
+        },
+        {
+          "lang": "pt",
+          "changes": [
+            "NOVO COMEÇO: o teste fechado terminou, obrigado! Todos começam de novo da Etapa 1, em rankings novos e vazios. Seu nome de piloto continua",
+            "Garage Rush está chegando ao iPhone: jogadores de iPhone e Android correm juntos no VERSUS",
+            "Botões e textos não ficam mais sob a câmera do celular nem nas bordas arredondadas da tela",
+            "CRÉDITOS: obrigado a cada piloto do teste fechado",
+            "Correção: a janela de combustível não diz mais SEM GASOLINA com o tanque cheio"
+          ]
+        },
+        {
+          "lang": "de",
+          "changes": [
+            "NEUSTART: Der geschlossene Test ist vorbei, danke! Alle starten wieder bei Etappe 1, auf neuen, leeren Bestenlisten. Dein Fahrername bleibt",
+            "Garage Rush kommt aufs iPhone: iPhone- und Android-Spieler fahren zusammen in VERSUS",
+            "Knöpfe und Texte liegen nicht mehr unter der Handykamera oder an den runden Bildschirmecken",
+            "CREDITS: Danke an alle Fahrer des geschlossenen Tests",
+            "Fix: Das Tankfenster zeigt nicht mehr KEIN SPRIT, wenn der Tank voll ist"
+          ]
+        },
+        {
+          "lang": "fr",
+          "changes": [
+            "NOUVEAU DÉPART : le test fermé est terminé, merci ! Tout le monde repart de l'Étape 1, sur de nouveaux classements vides. Ton nom de pilote reste",
+            "Garage Rush arrive sur iPhone : les joueurs iPhone et Android courent ensemble en VERSUS",
+            "Les boutons et les textes ne passent plus sous la caméra du téléphone ni dans les coins arrondis de l'écran",
+            "CRÉDITS : merci à chaque pilote du test fermé",
+            "Correctif : la fenêtre d'essence n'affiche plus PLUS D'ESSENCE quand le réservoir est plein"
+          ]
+        },
+        {
+          "lang": "it",
+          "changes": [
+            "NUOVO INIZIO: il test chiuso è finito, grazie! Tutti ripartono dalla Tappa 1, su classifiche nuove e vuote. Il tuo nome da pilota resta",
+            "Garage Rush arriva su iPhone: i giocatori iPhone e Android corrono insieme in VERSUS",
+            "Pulsanti e testi non finiscono più sotto la fotocamera del telefono o negli angoli arrotondati dello schermo",
+            "RICONOSCIMENTI: grazie a ogni pilota del test chiuso",
+            "Correzione: la finestra del carburante non dice più BENZINA FINITA quando il serbatoio è pieno"
+          ]
+        },
+        {
+          "lang": "ja",
+          "changes": [
+            "リスタート：クローズドテストが終了しました。ありがとう！全員ステージ1から、新しい空のランキングで再スタート。レーサー名はそのままです",
+            "Garage RushがiPhoneに登場：iPhoneとAndroidのプレイヤーがVERSUSで一緒にレースできます",
+            "ボタンや文字がスマホのカメラや画面の丸い角に隠れなくなりました",
+            "クレジット：クローズドテストのすべてのレーサーに感謝",
+            "修正：満タンなのに燃料ウィンドウに「燃料切れ」と表示される問題"
+          ]
+        },
+        {
+          "lang": "ko",
+          "changes": [
+            "새 출발: 비공개 테스트가 끝났어요, 고마워요! 모두 새로운 빈 순위표에서 1스테이지부터 다시 시작해요. 레이서 이름은 그대로예요",
+            "Garage Rush가 iPhone에 나와요: iPhone과 Android 플레이어가 VERSUS에서 함께 달려요",
+            "버튼과 글자가 휴대폰 카메라나 화면의 둥근 모서리에 가려지지 않아요",
+            "크레딧: 비공개 테스트의 모든 레이서에게 감사해요",
+            "수정: 연료가 가득 찼는데 연료 창에 '연료 없음'이 뜨던 문제"
+          ]
+        },
+        {
+          "lang": "zh",
+          "changes": [
+            "重新開始：封閉測試結束了，謝謝大家！所有人從第 1 關重新出發，排行榜全新清空。你的車手名稱會保留",
+            "Garage Rush 即將登上 iPhone：iPhone 和 Android 玩家可以在 VERSUS 一起比賽",
+            "按鈕和文字不再被手機鏡頭或螢幕圓角擋住",
+            "製作名單：感謝封閉測試的每一位車手",
+            "修正：油箱已滿時，燃料視窗不再顯示「燃料用完」"
+          ]
+        }
+      ]
+    },
     {
       "code": 154,
       "version": "0.1.154",
@@ -702,6 +807,5 @@
         "\"No ad right now\" text fits inside its button"
       ]
     }
-  ],
-  "required": 0
+  ]
 }
